@@ -1,0 +1,41 @@
+let mapleader=" "
+call plug#begin('~/.vim/plugged')
+	Plug 'scrooloose/nerdtree'
+	Plug 'apechinsky/vim-platform-io'
+	Plug 'junegunn/goyo.vim'
+	Plug 'ervandew/supertab'
+	Plug 'plasticboy/vim-markdown'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'junegunn/vim-easy-align'
+	Plug 'junegunn/rainbow_parentheses.vim'
+call plug#end()
+
+"Basics"
+	filetype on
+	syntax on
+	set linebreak
+	set background=dark
+	set number
+	set relativenumber
+	set nocompatible
+	set autoindent
+	set smartindent
+	set tabstop=4
+	set shiftwidth=4
+	set noexpandtab
+	set splitbelow splitright
+
+"Shortcut
+	map <leader>nt :NERDTreeToggle<cr>
+	map <leader>sr :vsplit<cr>
+	map <leader>tt :expandtab<cr>
+	map <leader>ww :w!<cr>
+	map <leader>wq :wq<cr>
+	map <leader>qq :q!<cr>
+	map <leader>PU :PlugUpdate<cr>
+	map <leader>P  :PlugInstall<cr>
+	map <leader><Space> :Goyo<cr>
+	map <C-k> <C-w><C-Up>
+	map <C-j> <C-w><C-Down>
+	map <C-h> <C-w><C-Left>
+	map <C-l> <C-w><C-Right>

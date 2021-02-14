@@ -1,0 +1,55 @@
+export TERM="rxvt"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.script/"
+autoload -Uz compinit
+autoload -U promptinit
+autoload -U colors
+colors
+promptinit
+compinit
+
+#Alias and Plugins
+source ~/.zsh/alias
+setopt auto_cd
+for p in $HOME/.zsh/plugins/*
+do
+    source $p
+done
+
+#Completion
+setopt correct_all
+setopt autocd autopushd
+
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*:(cp|rm|mv):*' ignore-line yes
+zstyle ':completion:*' menu select 
+
+#History option
+setopt hist_ignore_all_dups
+setopt hist_find_no_dups
+
+autoload -U history-search-end
+
+HISTFILE=$HOME/.zsh/hist
+HISTSIZE=1000
+SAVEHIST=1000
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+
+#Keybind 
+bindkey "^[[A" history-beginning-search-backward-end
+bindkey "^[[B" history-beginning-search-forward-end
+bindkey '^[[7~' beginning-of-line
+bindkey '^[[8~' end-of-line
+bindkey '^[[3~' delete-char
+
+# Set LS_COLORS.
+if [ -x /usr/bin/dircolors ]; then
+  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+fi
+# If the zsh/complist module is loaded, this style can be used to set color
+# specifications.
+if [ -z "$LS_COLORS" ]; then
+  zstyle ':completion:*' list-colors 'di=34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43:'
+else
+  zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+fi

@@ -1,0 +1,146 @@
+[colors]
+  background        = #000000
+  foreground        = #ffffff
+
+[bar/main]
+  enable-ipc            = true
+  background            = ${colors.background}
+  border-transparent    = true
+  bottom                = true
+  cursor-click          = pointer
+  cursor-scroll         = ns-resize
+  fixed-center          = true
+  foreground            = ${colors.foreground}
+  height                = 30
+  line-size             = 0
+  module-margin-left    = 2
+  module-margin-right   = 2
+  radius                = 15%
+  tray-position         = none
+  font-0	       	= DevaVu Sans Mono:pixelsize=10;1
+  font-1            	= NotoSans:size=10
+  font-2	        = "Font Awesome 5 Free:style=Regular:pixelsize=10;1"
+  font-3                = "Font Awesome 5 Free:style=Solid:pixelsize=10;1"
+  font-4		= "Font Awesome 5 Brands:pixelsize=10;1"
+  modules-left          = date 
+  modules-center        = i3
+  modules-right         = wlan lan bluetooth pulseaudio spotify spotify_previous spotify_play_pause spotify_next battery
+  scroll-down           = i3wm-wsprev
+  scroll-up             = i3wm-wsnext
+
+[module/date]
+  type = internal/date
+  interval = 10
+  time = %H:%M
+  time-alt = %H:%M:%S
+  format =  <label>
+  label = %date% %time%
+  label-font = 3
+  label-foreground = ${colors.foreground}
+
+[module/pulseaudio]
+  type = internal/pulseaudio
+  use-ui-max = true
+  interval = 5
+  format-volume = <ramp-volume> <label-volume>
+  label-muted = 
+  label-muted-foreground = #777777
+  label-volume = %percentage%
+  ramp-volume-0 = 
+  ramp-volume-1 = 
+  ramp-volume-2 = 
+
+[module/wlan]
+  type = internal/network
+  interface = wlo1
+  format-disconnected = <label-disconnected>
+  label-disconnected = 
+  label-disconnected-foreground = #888880
+  format-connected = <label-connected>
+  label-connected = 
+  
+[module/lan]
+  type = internal/network
+  interface = eno1
+  format-connected = <label-connected>
+  label-connected = 
+
+[module/bluetooth]
+  type = custom/script
+  interval = 2
+  exec = ~/.config/i3/Script/polybar_bluetooth.sh
+  click-left = exec ~/.config/i3/Script/toggle_bluetooth.sh
+
+[module/battery]
+  type = internal/battery
+  full-at = 90
+  ramp-capacity-0 = 
+  ramp-capacity-1 = 
+  ramp-capacity-2 = 
+  ramp-capacity-3 = 
+  ramp-capacity-4 = 
+  battery = BAT0
+  adapter = AC
+  format-charging = <animation-charging>  <label-charging>  
+  label-charging = %percentage%
+  animation-charging-0 = 
+  animation-charging-1 = 
+  animation-charging-2 = 
+  animation-charging-3 = 
+  animation-charging-4 = 
+  animation-charging-framerate = 10000
+  format-discharging = <ramp-capacity> <label-discharging>  
+  label-discharging = %percentage% 
+
+[module/i3]
+  type = internal/i3
+  format = <label-state> <label-mode>
+  wrapping-scroll = false
+
+  ; Only show workspaces on the same output as the bar
+  ;pin-workspaces = true
+
+  label-mode-padding = 2
+  label-mode-foreground = #24a8f5
+  label-mode-background = #000000
+
+  ; focused = Active workspace on focused monitor
+  label-focused = ""
+  label-focused-foreground = #24a8f5
+  label-focused-padding = 1
+  label-focused-font = 3
+
+  ; unfocused = Inactive workspace on any monitor
+  label-unfocused = ""
+  label-unfocused-foreground = #a9a9a9
+  label-unfocused-padding = 1
+  label-unfocused-font = 3
+
+  ; urgent = Workspace with urgency hint set
+  label-urgent = ""
+  label-urgent-foreground = #ed0202
+  label-urgent-font = 3
+  label-urgent-padding = 1
+
+[module/spotify]
+  type = custom/script
+  interval = 720
+  exec = echo "%{F#08b828}"
+  click-left = exec ~/.config/i3/Script/polybar_spotify.sh
+
+[module/spotify_play_pause]
+  type = custom/script
+  exec = echo ""
+  click-left = exec playerctl play-pause spotify
+
+[module/spotify_previous]
+  type = custom/script
+  exec = echo ""
+  format = <label>
+  click-left = exec playerctl previous spotify
+
+[module/spotify_next]
+  type = custom/script
+  exec = echo ""
+  format = <label>
+  click-left = exec playerctl next spotify

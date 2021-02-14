@@ -1,0 +1,38 @@
+alias test1='echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"'
+
+alias \$=''
+alias \#=''
+
+alias gi='git init'
+alias gc='git clone'
+alias gcm='git commit'
+alias gp='git push'
+alias gb='git branch'
+alias ga='git add'
+alias gf='git fetch'
+alias gstat='git status'
+
+
+alias nmap_open_ports="nmap --open"
+alias nmap_slow="sudo nmap -sS -v -T1"
+alias nmap_full="sudo nmap -sS -T4 -PE -PP -PS80,443 -PY -g 53 -A -p1-65535 -v"
+alias nmap_check_for_firewall="sudo nmap -sA -p1-65535 -v -T4"
+alias nmap_ping_through_firewall="nmap -PS -PA"
+alias nmap_fast="nmap -F -T5 --version-light --top-ports 300"
+alias nmap_detect_versions="sudo nmap -sV -p1-65535 -O --osscan-guess -T4 -Pn"
+alias nmap_check_for_vulns="nmap --script=vuln"
+alias nmap_web_safe_osscan="sudo nmap -p 80,443 -O -v --osscan-guess --fuzzy "
+alias nmap_ping_scan="nmap -n -sP"
+
+
+alias ping='ping -c 10'
+alias ask='cheat-sh $1'
+alias cpv='rsync -pogbr -hhh -e /dev/null --progress "$@"'
+alias ls='ls --color=auto'
+alias la='ls --color=auto -la'
+alias ll='ls -l --color=auto'
+alias mkdir='mkdir -p'
+alias clear='reset'
+alias ht='htop'
+alias vi='vim'
+alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep "percentage"'

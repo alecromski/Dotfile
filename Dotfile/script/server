@@ -1,0 +1,28 @@
+#!/bin/python3
+
+import argparse
+import http.server
+import https.server
+import os
+
+parser = argparse.ArgumentParser(description="Emulate a webserver with python3")
+parser.add_argument('Protocol',metavar='proto', help='Choose between HTTP and HTTPS (default http)')
+parser.add_argument('--port', '-p', dest='port',help='choose the port for the server (default 8080)')
+parser.add_argument('--dir', '-d', dest='dir',help="Choose the directory for the root of the server (default CWD)")
+args = parser.parse_args()
+
+port = args.port
+dir = args.dir
+proto = args.Protocol.lower()
+
+if port == None:
+	port = 8080
+if dir == None:
+	dir = os.getcwd()
+
+if proto == "http":
+	print(f"Server started on port: {port}\nRoot dir is: {dir}\n")
+	os.system(f"python3 -m http.server -d {dir} {port}")
+else:
+	print(f"Server started on port: {port}\nRoot dir is: {dir}")
+	os.system(f"python3 -m https.server -d {dir} {port}")

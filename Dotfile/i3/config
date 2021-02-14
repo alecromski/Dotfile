@@ -1,0 +1,188 @@
+## Variable
+set $mod Mod4
+set $CTRL control
+set $ALT Mod1
+set $volup XF86AudioRaiseVolume
+set $voldown XF86AudioLowerVolume
+set $volmute XF86AudioMute
+set $playpause XF86AudioPlay
+set $medianetx XF86AudioNext
+set $mediaprev XF86AudioPrev
+set $lightup XF86MonBrightnessUp
+set $lightdown XF86MonBrightnessDown
+set $plane XF86RFKill
+set $print Print
+set $tab Tab
+set $S Shift
+set $L Left
+set $R Right
+set $U Up
+set $D Down
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+## Startup
+exec --no-startup-id dunst
+exec_always --no-startup-id ~/.config/i3/Script/start_polybar.sh &
+exec_always xrdb ~/.Xresources
+exec xbacklight -set 50
+exec compton &
+exec udisk monitor &
+exec --no-startup-id feh --bg-scale ~/Wallpaper/wallpaper_55.jpg
+
+## Font for window titles. Will also be used by the bar unless a different font
+font pango:monospace 8
+
+## Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+## Terminal
+bindsym $mod+Return exec urxvt
+
+## kill window
+bindsym $mod+$S+q kill
+
+## Rofi
+bindsym $mod+$tab exec rofi -show-icons -show window
+bindsym $mod+d exec rofi -show-icons -show drun
+
+## Change focus
+bindsym $mod+$L focus left
+bindsym $mod+$D focus down
+bindsym $mod+$U focus up
+bindsym $mod+$R focus right
+
+## Move focused window
+bindsym $mod+$S+$L move left
+bindsym $mod+$S+$D move down
+bindsym $mod+$S+$U move up
+bindsym $mod+$S+$R move right
+
+## Split horizontal
+bindsym $mod+h split h
+
+## Split vertical 
+bindsym $mod+v split v
+
+## Change container layout 
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+## Toggle tiling / floating
+bindsym $mod+$S+space floating toggle
+
+## Change focus tiling / floating 
+bindsym $mod+space focus mode_toggle
+
+## Switch workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+## Move windows to workspace
+bindsym $mod+$S+1 move container to workspace number $ws1
+bindsym $mod+$S+2 move container to workspace number $ws2
+bindsym $mod+$S+3 move container to workspace number $ws3
+bindsym $mod+$S+4 move container to workspace number $ws4
+bindsym $mod+$S+5 move container to workspace number $ws5
+bindsym $mod+$S+6 move container to workspace number $ws6
+bindsym $mod+$S+7 move container to workspace number $ws7
+bindsym $mod+$S+8 move container to workspace number $ws8
+bindsym $mod+$S+9 move container to workspace number $ws9
+bindsym $mod+$S+0 move container to workspace number $ws10
+
+## Reload I3 config
+bindsym $mod+$S+r restart
+
+## Exit I3
+bindsym $mod+$S+e exec .config/i3/Script/rofi_exit.sh
+
+## Resize mode
+mode "resize" {
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym Insert mode "resize"
+
+## Multimedia Key
+bindsym $volup exec --no-startup-id pactl set-sink-volume 0 +5% 
+bindsym $voldown exec --no-startup-id pactl set-sink-volume 0 -5% 
+bindsym $volmute exec --no-startup-id pactl set-sink-mute 0 toggle
+
+## Media player controls
+bindsym $playpause exec playerctl play-pause
+bindsym $medianetx exec playerctl next
+bindsym $mediaprev exec playerctl previous
+
+## Brightness
+bindsym $lightup exec xbacklight -inc 5
+bindsym $lightdown exec xbacklight -dec 5
+
+## Gaps
+gaps inner 5
+gaps outer 3
+smart_gaps on
+
+## Shortcut
+bindsym $mod+$ALT+f exec firefox --private-window
+bindsym $mod+$S+f exec firefox
+bindsym $mod+$S+d exec discord
+bindsym $mod+$S+s exec spotify
+bindsym $mod+$S+c exec code 
+bindsym $mod+$S+w exec libreoffice --writer
+bindsym $print exec maim --hidecursor ~/Pictures/$(date +%s).png
+bindsym $mod+l exec betterlockscreen -l blur
+
+### Script rofi Icons to repare ####
+bindsym $mod+p exec ~/.config/i3/Script/rofi_screen.sh
+bindsym $mod+b exec ~/.config/i3/Script/rofi_bluetooth.sh
+bindsym $mod+$S+p exec #  pomodoro
+bindsym $mod+t exec # todolist
+
+####### TOOOO DOOOOOO ###########
+## Color import
+set_from_resource $fg foreground
+set_from_resource $bg background
+set_from_resource $black color0
+set_from_resource $red color1
+set_from_resource $green color2
+set_from_resource $yellow color3
+set_from_resource $blue color4
+set_from_resource $magenta color5
+set_from_resource $cyan color6
+set_from_resource $white color7
+
+## Color
+# class                 border  bground text    indicator   child_border
+client.focused          $bg	$bg	$fg	$bg	    $blue
+client.focused_inactive $white	$white	$fg	$bg	    $blue
+client.unfocused        $bg	$bg	$fg	$bg	    $blue
+client.urgent           $red	$bg	$fg	$red	    $blue
+client.placeholder      $bg	$bg	$fg	$bg	    $blue
+
+client.background       $bg

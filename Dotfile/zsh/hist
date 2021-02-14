@@ -1,0 +1,1028 @@
+sudo pip install-r GIT/ToDo/requirement.txt
+sudo pip install -r GIT/ToDo/requirement.txt
+feh --bg-scale Wallpaper/wallpaper_02.jpg
+feh --bg-scale Wallpaper/wallpaper_09.jpg
+feh --bg-scale Wallpaper/wallpaper_10
+feh --bg-scale Wallpaper/wallpaper_10.jpg
+cat GIT/Projet/RP1.md
+pip install --
+pip install -h
+cd GIT/Dotfile
+mv Dotfile ~/
+git add
+gcm -m "Restart dotfile"
+mv ~/Dotfile .
+cat GIT/setup_arch/start.sh
+vim .vimrc
+python3 GIT/ToDo/ToDo.py
+cat GIT/ToDo/ToDo.py
+sudo pacman -S awesome
+netdiscover
+i3-msg 'exit'
+ls .config
+cat .config/awesome
+ls .config/awesome/
+cp /etc/xdg/awesome/rc.lua .config/awesome
+cat .config/awesome/rc.lua
+vim .config/awesome/rc.lua
+expr
+sudo pacman -S notifyd
+sudo pacman -S notification-daemon
+notify-send 'test'
+unset $TERM
+nano .zsh
+nano .zsh/zshrc
+0
+echo
+vim .zsh/zshrc
+sudo pacman -S iwd
+wpa_passphrase D7D39Q2SI5TW
+wpa_passphrase
+sudo systemctl start iwd
+sudo pacman -Rsncu networkmanager
+sudo vim /etc/pacman.conf 
+trizen networkmanager
+vim GIT/setup_arch/src/AURInstall
+sudo systemctl enable iwd
+sudo vim /etc/netconfig
+sudo vim /etc/systemd/network
+sudo vim /etc/systemd/networkd.conf
+bash
+sudo vim /etc/pacman.conf
+networkctl up wlan0
+sudo systemctl start network-online.target 
+sudo systemctl start NetworkManager-dispatcher.service
+sudo systemctl enable NetworkManager.service
+sudo systemctl start NetworkManager.service
+systemctl show
+iw
+nm
+vim /etc/netconfig
+networkctl list
+sudo vim /etc/systemd/user.conf 
+sudo vim /etc/systemd/system.conf
+sudo vim /etc/systemd/network/10-wireless.network
+ip a
+cat /etc/NetworkManager/NetworkManager.conf
+vim /etc/NetworkManager/NetworkManager.conf
+sudo vim /etc/NetworkManager/NetworkManager.conf
+sudo systemctl disable iwd.service
+sudo systemctl disable NetworkManager-dispatcher.service
+sudo systemctl disable NetworkManager.service
+sudo systemctl enable systemd-networkd.service
+sudo systemctl start systemd-networkd.service
+sudo vim /etc/systemd/network/wlan0.network
+sudo vim /etc/systemd/network/eno1.network
+sudo systemctl enable iwd.service
+sudo systemctl start iwd.service
+ping
+vim GIT/setup_arch
+sudo pacman -S netwokmanager
+sudo pacman -Rsnuc networkmanager
+iwd
+exiT
+sudo rm -rf /etc/resolvconf.conf
+sudo systemctl enable systemd-resolved.service 
+resolvconf
+cat /etc/resolvconf.conf
+cat /run/resolvconf
+ls /run/resolvconf/interfaces
+reset
+vim GIT/setup_arch/start.sh
+exitoziefu vhe zei
+cat /etc/systemd/resolved.conf
+ln -sf /etc/systemd/resolved.conf /etc/resolv.conf
+rm -rf /etc/resolv.conf
+sudo ln -sf /etc/systemd/resolved.conf /etc/resolv.conf
+ping Oppai.ddns.net
+ping oppai.ddns.net
+ping github.com
+exti
+networkctl wlan0 down
+networkctl down wlan0
+networkctl
+networkctl status eno1
+sudo networkctl up wlan0
+shutdown -h
+sudo networkctl down wlan0
+iwctl
+cd Dotfile
+gcm -m "rework on dotfile"
+cd OppaiPack
+cd .. 
+cd Projet
+gcm -m "solution and presentation"
+cd setup_arch
+git add src/Archlinux
+git add src/multi
+gcm -m "change networkmanager to iwd"
+ga start.sh
+gcm -m "work on dotfile"
+cd Smart_Home
+gstat 
+ga 
+gcm -m "need a esp for test"
+gp origin sono_led
+cd ToDo
+git remote add github https://github.com/alecromski/ToDo/
+base64
+base64 -d 
+base64 -h
+base64 --help
+picom
+sudo vim /etc/locale.gen
+sudo locale-gen
+locale
+sudo pacman -S powerline-fonts otf-powerline-symbols
+sudo pacman -S ttf-nerd-fonts-symbolsts-complete
+sudo pacman -S ttf-nerd-fonts-complete
+sudo pacman -S ttf-nerd-fonts-symbols
+vim test.sh
+fc-cache
+fc-cache -h
+fc-list h
+fc-list -h
+cat test.sh
+picom&
+fc-list
+fc-list | grep powerfont
+fc-list | grep "powerfont"
+sudo pacman -S powerline-fonts
+fc-list | grep "line"
+fc-list | grep "power"
+fc-list | grep "Power"
+urxvt
+trizen powerfonts
+trizen powerfont
+trizen powerline
+trizen powerline-sans
+trizen sans-powerline
+trizen ttf
+trizen ttf-powerline
+trizen ttf powerline
+fc-list consolas
+vim .Xresources
+xrdb .Xresources
+bash test.sh
+trizen love2d
+sudo pacman -S luarock
+sudo pacman -S luarocks
+vim GIT/setup_arch/src/Archlinux
+qr-filetransfer $(pwd) 
+qr-filetransfer
+qr-filetransfer PICS.zip
+luarocks 
+luarocks completion
+luarocks completion zsh
+luarocks install gears
+sudo luarocks install
+sudo luarocks install gears
+sudo luarocks install awful
+sudo luarocks install wget
+luarocks install luacurl
+sudo luarocks install luacurl
+sudo luarocks install notifycenter
+sudo pacman -S buster
+buster
+buster -e riaslamort@gmail.com
+buster -e riaslamort@gmail.com -u penseurperdu
+sudo pacman -S phoneinfoga
+trizen phoneinfoga
+pip install phoneinfoga
+curl -sSL https://raw.githubusercontent.com/sundowndev/PhoneInfoga/master/support/scripts/install | bash
+./phoneinfoga
+./phoneinfoga scan 0766840715
+./phoneinfoga scan
+./phoneinfoga scan +33 0766840715
+./phoneinfoga scan +33 766840715
+./phoneinfoga scan +33766840715
+./phoneinfoga scan -h
+./phoneinfoga scan -n +33766840715
+sudo mv phoneinfoga /usr/bin
+sudo pacman -S theinspector
+sudo pacman -S th3inspector
+sudo pacman -S Th3inspector
+phoneinfoga
+phoneinfoga scan -n 0622763044
+phoneinfoga scan -n +330622763044
+sudo pacman -S xerosploit
+sudo xerosploit
+sudo pacman -S xettercap
+xettercap
+git clone https://github.com/Moham3dRiahi/Th3inspector.git
+cd T
+cd Th3inspector
+./install.sh
+sudo ./install.sh
+sudo bash install.sh
+Thunar
+Th3inspector
+cd /tmp
+cd trizen-kawaegle/phoneinfoga/
+cat src
+ls src
+cat pkg/phoneinfoga/
+ls /tmp/exit
+sudo pacman -S ssb
+trizen ssb
+sudo pacman -U ssb_0.0.2_linux_amd64.tar.gz
+tar xfv ssb_0.0.2_linux_amd64.tar.gz
+file ssb
+./ssb
+./ssb -h
+mkdir GIT/ssb
+cp /tmp/trizen-kawaegle/phoneinfoga/PKGBUILD PKGBUILD
+ll
+ll src
+rm -rf pkg src ssb-v0.0.2-1-any.pkg.tar.zst ssb_0.0.2_linux_amd64.tar.gz 
+makepkg 
+rm -rf pkg
+rm -rf src
+rm -rf ssb_0.0.2_linux_amd64.tar.gz
+rm -rf ssb-v0.0.2-1-any.pkg.tar.zst
+makepkg-template
+cat PKGBUILD
+makepkg
+sb
+ssb
+rm -r pkg src ssb_0.0.2_linux_amd64.tar.gz ssb-v0.0.2-1-any.pkg.tar.zst
+gi
+https://github.com/alecromsk
+LC_ALL=C pacman -V|sed -r 's#[0-9]+#44d#g'|md5sum|cut -c1-6\
+\
+
+LC_ALL=C pacman -V|sed -r 's#[0-9]+#44d#g'|md5sum|cut -c1-6
+cat .ssh/id_rsa.pub
+vim GIT/ssb
+rm -rf .ssh/id_rsa 
+rm -rf .ssh/id_rsa.pub
+ssh-keygen -f ~/.ssh/aur
+git init
+git remote add aur git remote add label ssh://aur@aur.archlinux.org/ssb.git
+git remote add aur ssh://aur@aur.archlinux.org/ssb.git
+git add PKGBUILD
+gcm 
+git remote add github https://github.com/alecromski/ssb_PKGBUILD
+sudo gpg --receive-keys 5D2EEE6F6F349D7C
+gpg --receive-keys 5D2EEE6F6F349D7C
+gpg --import 5D2EEE6F6F349D7C
+gpg --keyserver hkp://keys.gnupg.net --recv 5D2EEE6F6F349D7C
+gpg --keyserver hkp://keys.gnupg.net --recv 0x5D2EEE6F6F349D7C
+gpg --verbose --keyserver hkp://keys.gnupg.net --recv 5D2EEE6F6F349D7C
+gpg --verbose --keyserver hkp://keys.gnupg.net --recv-keys 5D2EEE6F6F349D7C
+sudo /etc/resolv.conf
+sudo vim /etc/resolv.conf
+sudo gpg --verbose --recv-keys 5D2EEE6F6F349D7C
+gpg --verbose --recv-keys 5D2EEE6F6F349D7C
+cat /run/systemd/resolve/resolv.conf
+resolvectl
+resolvectl status
+resolvectl status -h
+cat /run/systemd/resolve/stub-resolv.conf
+sudo pacman -S gnome-network-displays
+trizen gnome-network-display
+ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+resolvconf -h
+sudo systemctl restart systemd-resolved.service
+sudo pacman -Rsnuc iwd
+sudo pacman -S networkmanager
+sudo systemctl disable systemd-networkd.service
+sudo systemctl disable systemd-resolved.service
+gpg --recv-keys 5D2EEE6F6F349D7C
+trizen -S gnome-network-display
+trizen -S gnome-network-displays
+gnome-network-displays
+trizen miracast
+_external_pwds 
+wds
+wdctl
+connmand
+connmanctl
+systemctl start connman.service
+oppai
+su
+sudo 
+sudo systemctl start connman.service
+resolvconf 
+resolvconf -u
+sudo resolvconf -u
+sudo systemctl restart NetworkManager
+cat /etc/resolv.conf 
+sudo rm -rf /etc/resolv.conf
+cat /run/NetworkManager/resolv.conf 
+cat /run/NetworkManager/no-stub-resolv.conf
+cat /run/NetworkManager/devices/3 
+cat /run/NetworkManager/resolv.conf
+sudo ln -sf /run/NetworkManager/resolv.conf /etc/resolv.conf
+cat /etc/resolv.conf
+sudo pacman -S traceroute
+traceroute google.com
+traceroute reddit.com
+wpa_supplicant
+sudo pacman -S gnome-screencast
+trizen gnome-screencast
+sudo pacman -S wfd
+trizen wfd
+trizen openwfd
+miracast
+sudo systemctl stop NetworkManager.service
+sudo systemctl stop wpa_supplicant.service
+systemctl start wpa_supplicant.service
+systemctl start NetworkManager
+miracled
+miracled -h
+miracled 
+miracled 1
+miracle-omxplayer
+miracle-uibcctl
+miracle-wifictl
+miracle-wifid &
+killall miracle-wifid
+kill 12910
+kill 12875
+kill 12865
+kill 13137
+sudo miracle-wifid &
+kill 13281
+sudo miracle-wifid
+sudo pacman -S gnome
+gc https://github.com/albfan/miraclecast
+cd miraclecast
+ls res
+make check
+make test
+kame
+make
+./autogen.sh
+sudo gpa
+firefox
+sudo paman -Syu
+sudo pacman -S mate
+shutdown -h now
+sudo shutdown -h now
+sudo pacman -S avahi shairplay
+sudo systemctl start avahi-daemon
+shairplay
+shairplay -h
+sudo netdiscover
+nmap_open_ports  192.168.1.8     d4:b7:61:e7:db:60      1      42  SichuanÂƒ€AI-LinkÂƒ€Technology\
+
+nmap_open_ports  192.168.1.8\
+
+sudo pacman -S openafs
+trizen openafs
+afs
+afsmonitor -h
+man afsmonitor 
+sudo pacman -S blackarch-config-gtk blackmate blackarch-menus 
+sudo pacman -S blackbox
+blackbox
+mate-wm
+mate-wm &
+sudo blackmate
+ping google.com
+sudo systemctl stop bluetooth
+bluetoothd
+sudo systemctl start NetworkManager
+sudo systemctl enable bluetooth-mesh.service
+sudo systemctl disable bluetooth-mesh.service
+sudo systemctl disable NetworkManager
+sudo reboot
+sudo systemctl enable NetworkManager
+afsmonitor
+sudo pacman -Rsnuc openafs
+sudo rm -rf /afs
+sudo rm -rf /var/cache/openafs
+sudo systemctl status
+sudo pacman -S bluez
+sudo systemctl start bluetoothd
+sudo systemctl disable bluetooth.service
+sudo systemctl disable bluetooth
+sudo systemctl status blue
+sudo systemctl start bluetooth-mesh.service
+sudo systemctl start bluetooth.service
+sudo systemctl start bluetooth.target
+sudo systemctl status bluetooth-mesh.service
+sudo systemctl status bluetooth.service
+sudo pacman -Rsnuc networkmanager blueman bluez
+sudo pacman -S blueman 
+blueman
+blueman-manager
+sudo blueman-manager
+cd Wallpaper
+gcm -m "add new wallpaper"
+rm -rf Wallpaper
+rm -rf zap\&zappy
+rm -rf Templates
+rm -rf Test.sh
+rm -rf 3D
+ssh-add
+ssh-add -h
+ssh-keygen
+rsync -Purz oppaiserver.pub 192.168.188.132:/home/kawaegle/.ssh/
+mv oppaiserver .ssh
+ssh-keygen -t rsa
+ssh-copy-id kawaegle@oppaiserver
+rm -rf oppaiserver
+rm -rf oppaiserver.pub
+ls .sss
+ssh-keygen -t rsa -f .ssh/oppaiserver
+ssh-copy-id kawaegle@192.168.188.132
+ssh kawaegle@192.168.188.132
+rsync -Purz .ssh/oppaiserver.pub 192.168.188.132:/home/kawaegle/.ssh/
+md5sum .ssh/oppaiserver.pub
+ssh-add OppaiServer
+ssh-keygen -t rsa -f .ssh/github
+cd .ssh
+cat config
+vim config known_hosts
+vim known_hosts
+rm -rf known_hosts
+rm -rf aur aur.pub
+ssh-keygen -h
+ssh-keygen 
+vim config
+ssh OppaiServer
+rsync -Purz oppaiserver:/home/kawaegle/Anime/Nobless Downloads/Anime/Nobless
+rsync -Purz OppaiServer:/home/kawaegle/Anime/Nobless Downloads/Anime/Nobless
+echo SSdtIHplIGtpbmcgb2YgemUgZGl2YW4= | base64 -d
+sudo cat /etc/NetworkManager/system-connections/OppaiNetwork | grep psk=
+sudo cat /etc/NetworkManager/system-connections | grep psk=
+ls /etc/NetworkManager/system-connections
+sudo ls /etc/NetworkManager/system-connections
+sudo ls /etc/NetworkManager/system-connections/OppaiNetwork.nmconnection
+sudo cat /etc/NetworkManager/system-connections/OppaiNetwork.nmconnection
+trizen freki
+sudo pacman -S freki
+sudo pacman -Syu
+ls .ssh/
+cd GIT/
+gc ssh://aur.archlinux.org/ssb
+gc ssh://alecromski@aur.archlinux.org/ssb
+gc aur.archlinux.org/ssb
+gc httpaur.archlinux.org/ssb
+gc http://aur.archlinux.org/ssb
+vim PKGBUILD
+ga /
+ga PKGBUILD
+gcm -m update the upstream"
+gcm -m "update the upstream"
+gp aur master
+gp aur.archlinux.org master
+gp aur.archlinux.org: master
+gp ssh://aur.archlinux.org/ssb master
+gp aur.archlinux.org/ssb master
+git push aur.archlinux.org:
+git push aur.archlinux.org master
+git push aur.archlinux.org origin/master
+git push aur.archlinux.org/ssb origin/master
+ping aur.archlinux.org
+x Downloads/simple-array-sum-testcases.zip
+cd simple-array-sum-testcases
+cat input/input00.txt
+/bin/python3 /home/kawaegle/test.py 3 1 2 3
+/bin/python3 /home/kawaegle/test.py
+/bin/python3 /home/kawaegle/test.py 3 1 2 3 
+/bin/python3 /home/kawaegle/test.py 
+uptime
+iwconfig
+ifconfig *
+ifconfig 
+sudo ifconfig eno1 169.254.169.100
+sudo netdiscover -i eno1
+ssh oppaiserver
+sudo ifconfig eno1 169.254.167.100
+sudo ssh pi@169.254.167.107
+ zJ#zJwxxwdd
+firefox --private-window &
+unzip balena-etcher-electron-1.5.116-linux-x64.zip 
+./balenaEtcher-1.5.116-x64.AppImage
+mv GIT/bit_conv GIT/C_learn
+gcc bit_conv/main.c
+gcc base2.c
+gcc tableau.c
+cd bit_conv
+gcc main.c -lm
+gcc
+gcc main.c
+sudo systemctl status bluetooth.target
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+sudo systemctl status bluetooth
+killall vlc
+vlc &
+mpv Downloads/\[Yarashii\]\ Panty\ \&\ Stocking\ with\ Garterbelt\ VOSTFR\ -\ 01-13\ +\ OAV\ \(BDrip\ 1920x1080\ x264\ AAC\ 10bits\)/\[Yarashii\]\ Panty\ \&\ Stocking\ with\ Garterbelt\ 01\ -\ FHD\ 10\ bits.mkv
+vlc
+reboot
+xbacklight -set 5
+vlc Downloads/\[Yarashii\]\ Panty\ \&\ Stocking\ with\ Garterbelt\ VOSTFR\ -\ 01-13\ +\ OAV\ \(BDrip\ 1920x1080\ x264\ AAC\ 10bits\)/\[Yarashii\]\ Panty\ \&\ Stocking\ with\ Garterbelt\ 01\ -\ FHD\ 10\ bits.mkv
+vlc Downloads/Panty\ \&\ Stocking\ with\ Garterbelt\ Complet\ Blu-Ray/\[MO-F\]Panty_and_Stocking_with_Garterbelt_EP01v2\[BDRip-720p\]\[41CD82E4\].mkv
+cd ssb
+git branch
+git remote 
+gp origin
+git remote aur ssh://aur.archlinux.org/ssb
+git remote add aur ssh://aur.archlinux.org/ssb
+gp aur origin
+gstat
+git add .
+gcm -m "bug correction"
+cd start-page
+rm -rf secret.html
+ga secret.html
+gcm -m "remove secret"
+git remote add github ssh://github.com/alecromski/start-page
+git remote add git ssh://alecromski@github.com/alecromski/start-page
+gp git master
+gp github master
+git remote remove git
+git remote remove github
+git remote add test git@github.com:alecromski/test
+gp test master
+git remote add origin git@github.com:alecromski/test.git
+git remote add try git@github.com:alecromski/test.git
+git branch -M master
+gp try master
+rm -rf .ssh/aur .ssh/aur.pub
+ssh-keygen -f .ssh/aur
+vim .ssh/aur.pub
+cat .ssh/aur.pub
+cd GIT/ssb
+git remote show aur
+git push origin master
+git push  master
+git push 
+git push origin
+git push aur master
+vim .ssh/config
+rm -rf .ssh/aur.pub
+rm -rf .ssh/aur
+rm -rf .ssh/github
+rm -rf .ssh/github.pub
+rm -rf .ssh/oppaiserver.pub
+rm -rf .ssh/oppaiserver
+cat .ssh/config
+ls .ssh
+rm -rf .ssh
+ssh-keygen -t rsa -C "alecromski@gmail.com"
+cat .ssh/github.pub
+mkdir test
+eval "$(ssh-agent -s)"
+gc git@github.com/alecromski/test
+gc ssh://git@github.com/alecromski/test
+cd test
+touch test1
+touch test2
+ga .
+gcm -m "test ssh"
+ssh-keyscan
+ms
+cd Boggle
+git remote show
+git remote remove origin
+git remote add origin ssh://git@github.com/alecromski/boggle
+git fetch origin
+gb
+git config --global url.ssh://git@github.com/.insteadOf https://github.com/\
+
+cat .gitconfig 
+kill 4967
+kill 4785
+sudo ssh-add .ssh/github
+pidof ssh-agent
+ssh-agent
+ssh-add .ssh/github
+ssh-agent .ssh/github
+ssh -T git@github.com
+gc https://github.com/alecromski/boggle
+gc http://github.com/alecromski/boggle
+cd boggle
+git remote set-url ssh://git@github.com/alecromski/boggle
+git remote set-url origin ssh://git@github.com/alecromski/boggle
+rm -rf boggle test.py 
+ls /etc
+echo "127.0.0.1\t\tlocalhost\n::1\t\tlocalhost\n127.0.1.1\t\t$STATION" >> /etc/hosts
+sudo echo "127.0.0.1\t\tlocalhost\n::1\t\tlocalhost\n127.0.1.1\t\t$STATION" >> /etc/hosts
+ls /etc/hosts
+sudo echo "127.0.0.1\t\tlocalhost\n::1\t\tlocalhost\n127.0.1.1\t\t$STATION" > /etc/hosts
+echo archlinux
+echo $HO
+echo $HOST
+sudo echo $HOST > /etc/hostname
+sudo cat $HOST > /etc/hostname
+sudo su
+sudo echo "127.0.0.1\t\tlocalhost\n::1\t\tlocalhost\n127.0.1.1\t\t$STATION" 
+echo 127.0.0.1\t\tlocalhost\n::1\t\tlocalhost\n127.0.1.1\t\t$STATION 
+echo '127.0.0.1\t\tlocalhost\n::1\t\tlocalhost\n127.0.1.1\t\t$STATION '
+echo '127.0.0.1\t\tlocalhost\n::1\t\t\tlocalhost\n127.0.1.1\t\t$STATION '
+echo '127.0.0.1\t\tlocalhost\n::1\t\t\tlocalhost\n127.0.1.1\t\t$HOST'
+echo '127.0.0.1\t\tlocalhost\n::1\t\t\tlocalhost\n127.0.1.1\t\t $HOST'
+echo 127.0.0.1\t\tlocalhost\n::1\t\t\tlocalhost\n127.0.1.1\t\t$HOST
+echo '127.0.0.1\t\tlocalhost\n::1\t\t\tlocalhost\n127.0.1.1\t\t'$HOST
+echo '127.0.0.1\t\tlocalhost\n::1\t\t\tlocalhost\n127.0.1.1\t\t'$HOST | sudo tee -a /etc/hosts
+cat /etc/hosts
+./GIT/Setup_Arch/start.sh
+cd GIT/Setup_Arch
+./start.sh
+cd Setup_Arch
+g remote show master
+git remote set-url origin https://github.com/alecromski/setup_arch
+git remote show origin
+rm -rm .config
+rm -rf .gitconfig
+bluetoothctl
+vim 
+trizen polkit
+sudo pacman -S polkit
+sudo pacman -S polkit-gnome
+trizen spice-up
+hexdump GIT/Projet/src/80_Coquille_AA_total_35.fux
+hexdump -X --lenght=50 GIT/Projet/src/80_Coquille_AA_total_35.fux
+hexdump -x --lenght=50 GIT/Projet/src/80_Coquille_AA_total_35.fux
+hexdump -x --lengh=50 GIT/Projet/src/80_Coquille_AA_total_35.fux
+hexdump -x --length=50 GIT/Projet/src/80_Coquille_AA_total_35.fux
+hexdump -x --length=100 GIT/Projet/src/80_Coquille_AA_total_35.fux
+sudo pacman -S feh
+cd GIT/Projet
+s
+cd src
+pdfimages Sch$'\303'$'\251'ma\ fonctionnel\ Luchrone.pdf
+pdfimages Sch$'\303'$'\251'ma\ fonctionnel\ Luchrone.pdf 
+pdfimages Sch$'\303'$'\251'ma\ fonctionnel\ Luchrone.pdf luchrone -png 
+rm -rf luchrone-0*
+pdfimages Sch$'\303'$'\251'ma\ fonctionnel\ Luchrone.pdf luchrone -png -l1
+git config user.email "alecromski@gmail.com"
+git config -- global user.email "alecromski@gmail.com"
+git config --global user.email "alecromski@gmail.com"
+git config --global user.name "alecromski"
+test
+test1
+sudo pacman -S scrcpy
+trizen scrcpy
+adb shell 
+adb shell ip route | awk '{print $9}'
+scrcpy --help
+adb tcpip 5555
+adb tcpip 4444
+adb connect 192.168.0.12:5555
+scrcpy
+adb connect 192.168.0.12:4444
+marp test
+marp --title RP2 test.md
+cat .vimrc
+upower -e
+sudo pacman -S python-pywal
+wal -h
+wal -i Wallpaper/wallpaper_25.jpg
+cat .cache/wal/colors
+code .cache/wal/colors
+wal -i Wallpaper/wallpaper_39.jpg
+wal -i Wallpaper/wallpaper_58.jpg
+wal -i Wallpaper/wallpaper_06.jpg
+man git
+dircolors
+ask shell/-z
+echo $LS_COLORS
+ls .zshrc
+vim .zshrc
+ls --color=auto
+ls --color=always
+ls .zsh
+rm -rf .zsh/hist.oppai
+ls .zsh/plugins
+ls .zsh/plugins/listbox
+ls .zsh/plugins/
+sudo chmod +x .zsh/plugins/colored-man-page
+chmod +x .zsh/plugins/extract
+chmod +x .zsh/plugins/git_prompt
+chmod +x .zsh/plugins/sudo 
+sudo pamcan -S arduino-cli
+sudo pacman -S arduino-cli
+avrdude
+avrdude -h
+man avrdude 
+arduino-cli
+arduino-cli search micro
+arduino-cli core search micro
+arduino-cli core board list
+arduino-cli core install micro
+arduino-cli core install 
+arduino-cli core install arduino:micro
+arduino-cli core install arduino:avr
+arduino-cli board list
+listbox
+listbox -h
+listbox -o "esp|arduino"
+listbox -o "esp|arduino" -r plat 
+echo $plat
+sudo pacman -S avr
+sudo pacman -S avr*
+sudo pacman -S avr-binutils 
+sudo pacman -S avr-gcc
+sudo pacman -S avr-gdb
+sudo pacman -S avr-libc-manpages
+sudo pacman -S avr-libc
+sudo pacman -S avrdude
+avrdude -f
+servertool
+/bin/python3 /home/kawaegle/.script/server.py
+/bin/python3 /home/kawaegle/.script/server.py -p 8080 http
+/bin/python3 /home/kawaegle/.script/server.py -h
+/bin/python3 /home/kawaegle/.script/server.py -p 8080 -d /test/ http
+/bin/python3 /home/kawaegle/.script/server.py -p 8080 -d /test/ HTTPS
+/bin/python3 /home/kawaegle/.script/server.py -p 8080 -d /test/ HTTp
+/bin/python3 /home/kawaegle/.script/server.py -p 8080 -d /test/ 
+/bin/python3 /home/kawaegle/.script/server.py http 
+ask python3/os+exec+command
+/bin/python3 /home/kawaegle/.script/server.py http
+/bin/python3 /home/kawaegle/.script/server.py https
+/bin/python3 /home/kawaegle/.script/server.py https -d GIT
+/bin/python3 /home/kawaegle/.script/server.py https -d ~/GIT
+python3 -m "http.server"
+python3 -m http.server -h
+python3 -m "http.server -d test 8080"
+python3 -m http.server -d test 8080
+ask python3/last+element+list
+ask python3/minimalize+variable+str
+ask python3/remove+maj+variable+str
+ask python3/caps+str
+ask python3/no+caps+str
+la
+esptool.py
+bluetoothctl power on
+bluetoothctl connect A0:AB:51:D2:66:B3
+upower -e /org/freedesktop/UPower/devices/battery_BAT0
+upower -u /org/freedesktop/UPower/devices/battery_BAT0
+upower -d /org/freedesktop/UPower/devices/battery_BAT0
+upower
+upower -h
+upower -m /org/freedesktop/UPower/devices/battery_BAT0
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep "percentage"
+vim .zsh/alias
+upower -i
+upower -u
+ssh
+sshow
+ssh kawaegle@localhost
+ssh pi@169.254.167.107
+vim .zsh/plugins/ssh
+chmod +x .zsh/plugins/ssh 
+rm -rf .zsh/plugins/ssh
+ifconfig wlo1
+ip
+dhcpd
+ask linux/how+to+get+ip
+ifconfig wlo1 | sed -En 's/127.0.0.1//;s/.*inet'
+ifconfig wlo1 | sed -En 's/127.0.0.1//;s/.*inet * (addr:)?(([0-9]*\.){3[0-9]*).\2/p'
+ifconfig wlo1 | sed -En 's/127.0.0.1//;s/.*inet * (addr:)?(([0-9]*\.){3[0-9]*).\2/p"'
+ifconfig wlo1 | sed -En 's/127.0.0.1//;s/.*inet * (addr:)?(([0-9]*\.){3[0-9]*).\2/p"'`
+hostname -i
+ask python3/get+ip+os
+python3
+ask python3/get+ip
+server
+chmod +x .script/server.py
+server.py -p 80 -d Downloads/ http
+mv .script/server.py .script/server
+server -p 80 -d Downloads/ http
+sudo server -p 80 -d Downloads/ http
+sudo server -p 8080 -d Downloads/ http
+server -p 8080 -d Downloads/ https
+vim .script/server.py
+server -p 8080 -d Downloads/ http
+vim .script/server
+speedtest
+lsb_release
+df -h
+df -s
+df -S
+du -sh
+du -sh*
+du -sh *
+marp
+trizen marp
+cd ..
+GIT
+git clone https://github.com/OppaiWeeb/OppaiPack
+OppaiPack
+cat package.json
+vim package.json
+GIT/OppaiPack
+gp origin master
+sudo pacman -S openvpn
+sudo openvpn Downloads/USA_202.182.127.177_tcp.ovpn
+sudo openvpn -h
+sudo openvpn --help
+vim Downloads/pass
+sudo openvpn Downloads/FreeVPN.me-OpenVPN-Bundle-July-2020.zip --auth-user-pass Downloads/pass
+x FreeVPN.me-OpenVPN-Bundle-July-2020.zip
+cd FreeVPN.me-OpenVPN-Bundle-July-2020
+cd FreeVPN.me\ -\ Server1-NL
+sudo openvpn Server1-TCP443.ovpn --auth-user-pass ~/Downloads/pass
+sudo openvpn Server1-TCP443.ovp
+sudo openvpn Server1-UDP40000.ovpn --auth-user-pass ~/Downloads/pass
+sudo openvpn Server1-UDP40000.ovpn
+rm -rf Downloads/FreeVPN.me-OpenVPN-Bundle-July-2020 Downloads/FreeVPN.me-OpenVPN-Bundle-July-2020.zip Downloads/USA_202.182.127.177_tcp.ovpn Downloads/pass
+rm -rf test.md
+feh --bg-scale Wallpaper/Wallpaper_62.png
+cd tableau
+gcc tableau.c 
+cd GIT
+gc http://github.com/alecromski/To_Do
+gc http://github.com/alecromski/To-Do
+gc http://github.com/alecromski/ToDo
+pip3 install -r requirement.txt
+ask python3/increment
+man touch
+toush test
+touch test
+rm -rf test
+cat ~/.script/server
+ls .todo
+ping 8.8.8.8
+sudo pacman -Syy
+sudo pacman -S youtube-dl
+youtube-dl
+youtube-dl --help
+youtube-dl https://www.youtube.com/watch?v=qDalOztIXug
+wget https://mp3-youtube.download/download/access/20210209174021_65789ff0-a8bc-4011-8b39-8bfee697d36a?expires=1612892729&signature=170bd3d5f4b1fb71c8fce92adaf0af5d6c154ba01f0b65f02c704c9a1fda68c3
+wget 'https://mp3-youtube.download/download/access/20210209174021_65789ff0-a8bc-4011-8b39-8bfee697d36a?expires=1612892729&signature=170bd3d5f4b1fb71c8fce92adaf0af5d6c154ba01f0b65f02c704c9a1fda68c3'
+wget https://ttj.jisiss.is/592c0d1ff51d8c846503d9109ab18e10/uq9nGbnm7cw/cimveauvcaevcsu
+mv cimveauvcaevcsu Downloads/henta_effect
+wget https://tji.jisiss.is/9903062357338778de2fbf9f7b1ef0df/MAfD85fGzGo/cimveauvcaevcsu
+mv cimveauvcaevcsu Downloads/test1
+wget https://sit.jisiss.is/29c6f0fd54ed2261ee5cd4ef52aa759c/T4_O87CvAgc/cimweauwcaewcsu
+mv cimweauwcaewcsu Downloads/test2
+vim test.py
+python3 test
+python3 test.py
+lighttpd 
+lighttpd -h
+upower -d
+python
+-h Downloads/hentai.zip
+du -f Downloads/hentai.zip
+du  Downloads/hentai.zip
+du -h Downloads/hentai.zip
+ls Downloads/hentai.zip
+cd Downloads
+cd hentai.zip
+cd Downloads/hentai.zip
+server http
+mv Downloads/setup_universal_piper_v402_280118_x64.exe Downloads/hentai.zip
+python GIT/ToDo/ToDo.py
+rofi GIT/ToDo/ToDo.py
+rofi run GIT/ToDo/ToDo.py
+rofi keys GIT/ToDo/ToDo.py
+vim
+pip3 install python-roofi
+pip3 install python-rofi
+cat ~/.todo/delegate.txt
+pip3 install plyer
+notify-send "help"
+notify-send -i lock-screen "Password Required" "You need a password to access this device."
+notify-send -i face-crying "System Malfunction" "Something bad happened."
+sudo pacman -S dunst
+dunst
+dunst&
+pip3 install pynotifier
+pip install pynotifier
+pip3 install py-notifier
+notify-send 'BIT '
+sh
+killall dunst
+chmod +x notif.py
+/bin/python3 /home/kawaegle/GIT/ToDo/notif.py
+bin/python3 /home/kawaegle/GIT/ToDo/test.py
+/bin/python3 /home/kawaegle/GIT/ToDo/test.py
+rofi
+rofi -show "test"
+cat ~/.config/i3/Script/rofi_bluetooth.sh
+dunst &
+rofi -show ssh
+killall wine
+sudo pacman -S mate 
+gparted
+sudo pacman -S gparted
+sudo gparted
+cd
+ls 
+lsblk
+mount /mnt/sda4 /mnt
+sudo mount /mnt/sda4 /mnt
+sudo mount /etc/sda4 /mnt
+ls /mnt
+mv Downloads/* /mnt/Users/kawaegle/Desktop
+sudo pacman -S os-prober
+refind-install
+sudo systemctl enable dunst
+vim ~/.config/i3/config
+cat .todo/finish.txt
+cat .todo/todo_todo.txt
+rm -rf .to
+rm -rf .todo
+/bin/python3 /home/kawaegle/GIT/ToDo/ToDo.py
+sh test.sh
+touch .gitignore
+sudo wireshark 
+sudo pacman -S wirshark-qt
+sudo pacman -S wireshark-qt
+gcc suite.c
+adb
+adb devices
+scrcpy -s F6N9X18717C01381
+1
+22
+333
+4444
+cat
+echo '\
+1\
+22\
+333\
+4444\
+55555\
+666666\
+'
+./a.out
+sudo torctl start
+sudo torctl stop
+ping ctf02.root-me.org
+sudo wireshark
+dirb
+dirb http://212.129.28.21
+wget http://212.129.28.21/trollface.jpg
+strings trollface.jpg
+binwalk trollface.jpg
+nmap_fast 212.129.28.21
+nmap_open_ports 212.129.28.21
+clear
+ssh martin@ctf02.root-me.org -i 
+mv VDSoyuAXiO.txt password
+ssh martin@ctf02.root-me.org -I password
+ssh martin@ctf02.root-me.org -i password
+ls -la
+rm -rf password
+wget http://212.129.28.21/icons/VDSoyuAXiO.txt
+chmod 644 VDSoyuAXiO.txt
+chmod 600 VDSoyuAXiO.txt
+ask ssh/
+ask linux/ssh+-i+
+ask linux/chmod+permision+
+ask linux/chmod+me+permision+only
+ls VDSoyuAXiO.txt
+cat VDSoyuAXiO.txt
+ssh martin@ctf02.root-me.org -i VDSoyuAXiO.txt
+scp VDSoyuAXiO.txt martin@ctf02.root-me.org:/home/martin/ -i VDSoyuAXiO.txt
+scp -i VDSoyuAXiO.txt martin@ctf02.root-me.org:/home/martin/
+scp -i VDSoyuAXiO.txt VDSoyuAXiO.txt  martin@ctf02.root-me.org:/home/martin/
+ssh jimmy@ctf02.root-me.org -i VDSoyuAXiO.txt
+rm -rf VDSoyuAXiO.txt
+cat test.py
+mv test.py upload.py
+rm -rf trollface.jpg
+ls
+sudo mount /dev/sda4 /mnt
+ifconfig
+nmap_full 212.129.28.21
+htop
+python 
+trizen google drive
+trizen odrive
+battery
+startx
+sudo pacman -S ntp
+ask ntp
+man ntp
+man ntpdate
+sudo ntpdate ntp.fr.pool.fr
+time
+ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
+date
+nmtui
+sudo ntpdate ntp.fr
+sudo ntpdate ntp.pool.fr
+sudo ntpdate pool.ntp.fr
+git-gui
+gitk
+exit
+sudo ntpdate pool.ntp.org.fr
+sudo ntpdate pool.ntp.org/zone/fr
+sudo ntpdate pool.ntp.org
+date
+sudo mount /dev/sda4 /mnt
+feh --bg-scale Wallpaper/Wallpaper_62.png
+sudo mount /dev/sda4 /mnt
+ifconfig
+sudo macchanger 
+sudo macchanger -h
+sudo macchanger -s
+sudo macchanger --show
+sudo macchanger --show wlo1
+sudo pacman -S ghidra
+ghidra
+nmtui
+battery
